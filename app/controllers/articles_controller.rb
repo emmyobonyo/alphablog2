@@ -5,4 +5,8 @@ class ArticlesController < ApplicationController
     @article = Article.find(params[:id])
     # The id is being passed to the application using a params hash
   end
+
+  def index 
+    @articles = Article.all
+  end
 end

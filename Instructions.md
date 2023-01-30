@@ -53,6 +53,9 @@
 - Create a show action in the articles controller
 - The show action in the controller interacts with the database through the model. Recieves information and now its free to use that information how it deems fit.
 - Create a show view that is didplayed in the browser.
-
+- Create a view to show all the articles
+- Create a route to show all articles
+- Create a controller for the index route
+- Create a view for the index route (index.html.erb)
 
 
