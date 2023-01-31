@@ -9,10 +9,12 @@
     </tr>
   </thead>
   <tbody>
+    <%  @articles.each do |article|%>
     <tr>
-      <td>Some Title</td>
-      <td>Some Description</td>
+      <td><%= article.title%></td>
+      <td><%= article.description%></td>
       <td>Some Place Holder</td>
     </tr>
+    <% end %>
   </tbody>
 </table>

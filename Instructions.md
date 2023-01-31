@@ -58,4 +58,8 @@
 - Create a controller for the index route
 - Create a view for the index route (index.html.erb)
 
+6. Perfomr create operations from the Frontend
+- Create the new and create route
+- Create a new and create action in the Model Controller
+- Create a view to create the new article.
 
